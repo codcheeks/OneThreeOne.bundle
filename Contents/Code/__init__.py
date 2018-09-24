@@ -15,7 +15,7 @@ ICON_NEXT = "icon-next.png"
 ICON_MOVIES = "icon-movies.png"
 ICON_SERIES = "icon-series.png"
 ICON_QUEUE = "icon-queue.png"
-BASE_URL = "http://chan131.so"
+BASE_URL = "http://chan131.in"
 
 ######################################################################################
 # Set global variables
@@ -31,7 +31,7 @@ def Start():
 
 	HTTP.CacheTime = CACHE_1HOUR
 	HTTP.Headers['User-Agent'] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
-	HTTP.Headers['Host'] = "chan131.so"
+	HTTP.Headers['Host'] = "chan131.in"
 	
 ######################################################################################
 # Menu hierarchy
